@@ -10,7 +10,7 @@ public class CalculadoraTest {
 	public void testSomar() {
 		Calculadora calc = new Calculadora();
 		int soma = calc.somar("1+1+2");
-		assertEquals(5, soma);
+		assertEquals(4, soma);
 	}
 
 }
