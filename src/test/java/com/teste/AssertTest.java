@@ -14,7 +14,7 @@ public class AssertTest {
 
 	  @Test
 	  public void testAssertArrayEquals() {
-	    byte[] esperado = "teste".getBytes();
+	    byte[] esperado = "tese".getBytes();
 	    byte[] atual = "teste".getBytes();
 	    assertArrayEquals(esperado, atual);
 	  }
